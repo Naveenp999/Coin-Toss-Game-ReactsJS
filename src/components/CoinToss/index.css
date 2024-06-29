@@ -1,0 +1,100 @@
+.container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-container {
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  width: 80%;
+  max-width: 560px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+  min-height: 70vh;
+}
+.sub{
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  font-size: 25px;
+  font-weight: 500;
+  color: #a35200;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+}
+.description {
+  font-size: 20px;
+  color: #334155;
+  margin-top: 10px;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 30px;
+  }
+}
+.coin-img {
+  text-align: center;
+}
+.toss-icon {
+  width: 70%;
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 10px;
+  background-color: #f9d423;
+  color: #a35200;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 15px;
+  }
+}
+.count-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+@media screen and (min-width: 768px) {
+  .count-container {
+    flex-direction: row;
+  }
+}
+.count {
+  font-size: 15px;
+  color: #334155;
+  margin: 10px;
+}
+@media screen and (min-width: 768px) {
+  .count {
+    font-size: 20px;
+    margin: 20px;
+  }
+}
